@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS students (
 );
 ## 📂 Project Structure
 
-StudentApp
+``` StudentApp
 ├── pom.xml                   # Maven dependencies and build config
 └── src
     └── main
@@ -67,6 +67,7 @@ StudentApp
             ├── list.jsp               # Student List View
             └── WEB-INF
                 └── web.xml            # Deployment Descriptor
+```
 ## 🚀 Getting Started
 # Prerequisites
 1.  Ensure you have the following installed:
@@ -76,18 +77,21 @@ StudentApp
 5.  Apache Tomcat
 # Installation
 1. Clone the Repository
-Bash
+```Bash
 git clone https://github.com/your-username/student-registration-app.git
 cd student-registration-app
+```
 2. Configure Database
 Open src/main/java/com/studentapp/DBConnection.java and update the credentials:
-Java
+``` Java
 private static final String USER = "root";       // Your MySQL Username
 private static final String PASSWORD = "your_password"; // Your MySQL Password
+```
 3. Build the Project
 Run the following command to generate the WAR file:
-Bash
+``` Bash
 mvn clean install
+```
 4. Deploy
 * Copy the generated .war file from the target/ folder.
 * Paste it into the webapps/ folder of your Apache Tomcat installation.
