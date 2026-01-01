@@ -101,10 +101,10 @@ Open your browser and navigate to:
 http://localhost:8080/StudentApp/
 ## 📷 Screenshots
 1. Registration Page
-(Place a screenshot here, e.g., ![Registration](screenshots/register.png))
+![Registration](screenshots/register.png)
 Users can enter student details here.
 2. Student List
-(Place a screenshot here, e.g., ![List](screenshots/list.png))
+![List](screenshots/list.png)
 Displays a table of all registered students fetched from the database.
 ## 🤝 Contributing
 1. Fork the repository.
